@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Seesaw Simulation</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app">
+
+
+    <section class="metrics">
+      <div class="card">
+        <div class="card-title">LEFT WEIGHT</div>
+        <div class="card-value"><span id="leftWeight">0.0</span> kg</div>
+      </div>
+      <div class="card">
+        <div class="card-title">NEXT WEIGHT</div>
+        <div class="card-value"><span id="nextWeight">5</span> kg</div>
+      </div>
+      <div class="card">
+        <div class="card-title">RIGHT WEIGHT</div>
+        <div class="card-value"><span id="rightWeight">0.0</span> kg</div>
+      </div>
+      <div class="card">
+        <div class="card-title">TILT ANGLE</div>
+        <div class="card-value"><span id="tiltAngle">0.0</span>°</div>
+      </div>
+    </section>
+
+    
+    <section class="stage">
+      <canvas id="scene" aria-label="seesaw-canvas"></canvas>
+    
+    </section>
+    <section class="log-panel">
+  <div class="log-title">HISTORY</div>
+  <ul id="eventLog"></ul>
+</section>
+
+    <div class="center">
+      <button id="resetBtnBottom" class="btn btn-primary">⟳ Reset Seesaw</button>
+    </div>
+
+  </main>
+  <script type="module" src="../src/main.js"></script>
+</body>
+</html>
