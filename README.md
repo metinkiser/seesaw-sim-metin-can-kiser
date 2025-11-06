@@ -111,4 +111,5 @@ The codebase is structured into modular components handling:
 - UI
 - rendering
 - input
+
 This creates a clean and maintainable simulation that is easy to expand.
