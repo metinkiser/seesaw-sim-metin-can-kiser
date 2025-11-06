@@ -104,41 +104,15 @@ All behavior flows in one direction — predictable and clean.
 - Responsive UI
 - Log history for transparency
 
-Extensibility
-
-The structure allows easy enhancements:
-
-friction / damping
-
-different beam lengths
-
-different gravity
-
-reset animation
-
-audio feedback
-
-multi-weight selection
-
-undo
-
-save/load scenarios
 
  Summary
 
 This project simulates seesaw balance using real–world torque equations.
 The codebase is structured into modular components handling:
 
-state management
-
-physics
-
-UI
-
-rendering
-
-input
-
-logging
-
+- management
+- physics
+- UI
+- rendering
+- input
 This creates a clean and maintainable simulation that is easy to expand.
