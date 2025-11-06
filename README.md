@@ -70,15 +70,11 @@ Weights drop visually, then attach to the beam once landed.
 
 6) UI
 
-Counters update live:
-
-left total
-
-right total
-
-tilt angle
-
-next weight value
+- Counters update live:
+- left total
+- right total
+- tilt angle
+- next weight value
 
 A scrollable history shows each placement.
 
@@ -102,7 +98,7 @@ All behavior flows in one direction — predictable and clean.
 - Modular code structure
 - Lightweight — no dependencies
 - Responsive UI
-- Log history for transparency
+
 
 
  Summary
