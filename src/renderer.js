@@ -1,4 +1,4 @@
-// src/renderer.js
+
 import { state } from './state.js';
 
 
